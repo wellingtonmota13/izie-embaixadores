@@ -660,6 +660,18 @@ aside.clients img {
     margin: 50px auto;
 }
 
+section#quote-two {
+    background-color: #222;
+    background-image: url(../img/quote-two.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+section#quote-two h2{
+    color:#fff;
+}
+
+
 section#contact {
     background-color: #222;
     background-image: url(../img/map-image.png);
