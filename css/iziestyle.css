@@ -660,6 +660,7 @@ aside.clients img {
     margin: 50px auto;
 }
 
+
 section#quote-two {
     background-color: #222;
     background-image: url(../img/quote-two.jpg);
@@ -684,6 +685,18 @@ section#quote-two h2{
     margin-top: 10px;
 }
 
+.btn-quote-one {
+    padding: 20px 40px;
+    border-color: #000;
+    border-radius: 3px;
+    text-transform: uppercase;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: #000;
+    background-color: transparent;
+    margin-top: 10px;
+}
 
 
 section#contact {
