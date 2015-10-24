@@ -662,6 +662,10 @@ section h3.section-subheading {
     }
 }
 
+.bs-example{
+        margin: 20px;
+    }
+
 .team-member {
     margin-bottom: 50px;
     text-align: center;
