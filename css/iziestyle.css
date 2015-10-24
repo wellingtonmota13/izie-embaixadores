@@ -356,15 +356,14 @@ section h3.section-subheading {
 }
 
 .service-heading {
-    margin: 15px 0;
+    margin: 5px 0;
     text-transform: none;
 }
 
 .service-heading .sub {
-    margin: 15px 0;
     text-transform: none;
     font-size: 0.8em;
-    margin-bottom: 10px;
+    display: block;
 }
 
 
