@@ -4,9 +4,10 @@
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
 
+
 body {
     overflow-x: hidden;
-    font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
 .text-muted {
@@ -53,7 +54,7 @@ h4,
 h5,
 h6 {
     text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
 }
 
@@ -358,6 +359,32 @@ section h3.section-subheading {
     margin: 15px 0;
     text-transform: none;
 }
+
+.service-heading .sub {
+    margin: 15px 0;
+    text-transform: none;
+    font-size: 0.8em;
+    margin-bottom: 10px;
+}
+
+
+#services {
+
+    background-color: #222;
+    background-image: url(../img/services.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #fff;
+
+}
+
+#services h4{
+    text-transform: uppercase;
+    font-weight: 300;
+}
+
+
+
 
 #portfolio .portfolio-item {
     right: 0;
