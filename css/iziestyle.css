@@ -104,7 +104,7 @@ ul li {
 .btn-primary:active,
 .btn-primary.active,
 .open .dropdown-toggle.btn-primary {
-    border-color: #f6bf01;
+    border-color: #00baff;
     color: #fff;
     background-color: #fec503;
 }
@@ -156,9 +156,9 @@ fieldset[disabled] .btn-primary.active {
 .btn-xl:active,
 .btn-xl.active,
 .open .dropdown-toggle.btn-xl {
-    border-color: #f6bf01;
+    border-color: #00baff;
     color: #fff;
-    background-color: #fec503;
+    background-color: #00baff;
 }
 
 .btn-xl:active,
@@ -832,51 +832,7 @@ section#contact:-ms-input-placeholder {
 section#contact .text-danger {
     color: #e74c3c;
 }
-/*
-footer {
-    padding: 25px 0;
-    text-align: center;
-}
 
-footer span.copyright {
-    text-transform: uppercase;
-    text-transform: none;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    line-height: 40px;
-}
-
-footer ul.quicklinks {
-    margin-bottom: 0;
-    text-transform: uppercase;
-    text-transform: none;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    line-height: 40px;
-}
-
-ul.social-buttons {
-    margin-bottom: 0;
-}
-
-ul.social-buttons li a {
-    display: block;
-    width: 40px;
-    height: 40px;
-    border-radius: 100%;
-    font-size: 20px;
-    line-height: 40px;
-    outline: 0;
-    color: #fff;
-    background-color: #222;
-    -webkit-transition: all .3s;
-    -moz-transition: all .3s;
-    transition: all .3s;
-}
-
-ul.social-buttons li a:hover,
-ul.social-buttons li a:focus,
-ul.social-buttons li a:active {
-    background-color: #00baff;
-}*/
 
 /* ==========================================================================
     $Footer
@@ -884,10 +840,10 @@ ul.social-buttons li a:active {
 .footer {
   text-align: left; }
   .footer-top {
-    background-color: #3a3e64;
+    background-color: #151518;
     padding-top: 50px; }
   .footer-bottom {
-    background-color: #313454;
+    background-color: #28292d;
     padding: 20px 0; }
   .footer .footer-col {
     margin-bottom: 80px; }
@@ -900,7 +856,8 @@ ul.social-buttons li a:active {
   .footer a {
     color: #fff; }
     .footer a:hover {
-      color: #e84545; }
+      color: #00baff;
+      text-decoration: none; }
   .footer .footer-share {
     margin-top: 0; }
     .footer .footer-share li {
@@ -910,7 +867,7 @@ ul.social-buttons li a:active {
       border-width: 2px;
       color: #fff; }
   .footer .fa-heart {
-    color: #e84545;
+    color: #00baff;
     font-size: 11px;
     margin: 0 2px; }
 
@@ -933,8 +890,8 @@ ul.social-buttons li a:active {
     text-align: center;
     width: 40px; }
     .social-icons a:hover, .footer .footer-share a:hover {
-      background-color: #e84545;
-      border-color: #e84545;
+      background-color: #00baff;
+      border-color: #00baff;
       color: #fff; }
 
 
