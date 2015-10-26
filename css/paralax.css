@@ -1,3 +1,10 @@
+  section h2.section-heading {
+    color: #fff;
+    font-weight: 300;
+    font-size: 1.7em;
+  }
+
+  
   /* Parallax base styles
   --------------------------------------------- */
 
@@ -99,9 +106,7 @@
     padding:0;
   }
 
-  .parallax {
-    font-size: 200%;
-  }
+
 
    /* centre the content in the parallax layers */
   .title {
