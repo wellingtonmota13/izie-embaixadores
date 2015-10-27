@@ -26,15 +26,11 @@
 /* END Preloader */
 
 
-  .logo-over{
-    position:fixed;
-    width:500px;
-    height:600px;
-    margin:-300px auto auto -250px;
-    top:50%;
-    left:50%;
-    text-align:center;
-    z-index: 999; }
+  .logo{
+    display: block;
+    margin: 0 auto;
+    margin-top:-150px;
+  }
 
   section h2.section-heading {
     color: #fff;
