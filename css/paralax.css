@@ -1,3 +1,8 @@
+  
+.myScrollArea {
+width:300px; height:100px; overflow:auto; background-color:#e0d0a0;
+}
+
   section h2.section-heading {
     color: #fff;
     font-weight: 300;
@@ -106,6 +111,7 @@
     margin:0;
     padding:0;
   }
+  
 
 
 
@@ -137,6 +143,12 @@
   --------------------------------------------- */
 
 
+  #group0 {
+    z-index: 5; /* slide over group 2 and 4 */
+  }
+  #group1 .parallax__layer--base {
+/*    background: rgb(153,216,101);
+*/  }
 
   #group1 {
     z-index: 4; /* slide over group 2 and 4 */
