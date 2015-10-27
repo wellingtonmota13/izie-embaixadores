@@ -18,12 +18,27 @@
             function goToAnchor() {
               location.href = "index.html#group3";
           }
-      </script>
+        </script>
+        <!-- Preloader -->
+        <script type="text/javascript">
+        //<![CDATA[
+        $(window).load(function() { // makes sure the whole site is loaded
+            $('#status').fadeOut(); // will first fade out the loading animation
+            $('#preloader').delay(350).fadeOut('slow'); // will fade out the white DIV that covers the website.
+            $('body').delay(350).css({'overflow':'visible'});
+        })
+        //]]>
+        </script>
   </head>
 
-  <body onload="goToAnchor();">
+<body onload="goToAnchor();">
 
-  <div id="logo-over"></div>
+<div id="logo-over"></div>
+<!-- Preloader -->
+<div id="preloader">
+    <div id="status">&nbsp;</div>
+</div>
+
     
         <section>
           <div class="conteiner">
@@ -96,6 +111,8 @@
 </div>
 </div>
 </section>
+
+
 
 <script type="text/javascript">
 
