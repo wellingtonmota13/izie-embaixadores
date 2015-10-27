@@ -202,6 +202,7 @@
 
   #group3 {
     z-index: 3; /* slide over group 7 */
+    padding-top: 20px;
   }
   #group3 .parallax__layer--base {
     background: url(../img/paralax/group3-bg.png) ;
@@ -214,6 +215,16 @@
   }
 
 
+  .girl {
+    display: block;
+    height: 100%;
+    width: 250px;
+    position: relative;
+    margin: 0 auto;
+    margin-top:10px;
+
+
+  }
 
   /* misc
   --------------------------------------------- */
