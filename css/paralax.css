@@ -134,10 +134,17 @@
   /* style the groups
   --------------------------------------------- */
 
+  #group0 .parallax__layer--base {
+/*    background: rgb(153,216,101);
+*/  }
 
   #group0 {
-    z-index: 5; /* slide over group 2 and 4 */
+    z-index: 4; /* slide over group 2 and 4 */
   }
+  #group0 .parallax__layer--base {
+/*    background: rgb(153,216,101);
+*/  }
+
   #group1 .parallax__layer--base {
 /*    background: rgb(153,216,101);
 */  }

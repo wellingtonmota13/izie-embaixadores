@@ -30,7 +30,7 @@
               <div class="row">
                   <div class="col-lg-12">
                    <div class="parallax">
-                          <div id="group1" class="parallax__group">
+                          <div id="group0" class="parallax__group">
                               <div class="parallax__layer parallax__layer--fore">
                                 <div class="title"><div class="container">
                                     <div class="col-lg-12">
@@ -70,38 +70,40 @@
                     <div><img src="img/paralax/satelite.png" alt="" class="img-responsive"></div>
                 </div>
                 <div class="parallax__layer parallax__layer--back">
-                    <div class="object-img"><img src="img/paralax/clouds-2.png" alt="" class="img-responsive"></div>                </div>
+                    <div class="object-img"><img src="img/paralax/clouds-2.png" alt="" class="img-responsive"></div>
+                    </div>
                     <div class="parallax__layer parallax__layer--deep">
                         <div class="object-img"><img src="img/paralax/clouds-1.png" alt=""class="img-responsive"></div>
                     </div>
                 </div>
                 <div id="group3" name="group3"class="parallax__group">
-                  <div class="parallax__layer parallax__layer--base">
-                    <div class="title"><div class="container">
-                        <div class="row">
-                            <div class="col-lg-12 text-center">
-                                <h2 class="section-heading">Conheça uma forma inovadora em fazer bons negócios
-                                </h2>
-                                <h3 class="section-heading sub-title">Conectamos marcas e empreendedores
-                                </h3>
-                                <a href="#group1" class="btn btn-xl btn-quote scroll">Quero saber mais</a>
+                    <div class="parallax__layer parallax__layer--base">
+                        <div class="title"><div class="container">
+                            <div class="row">
+                                <div class="col-lg-12 text-center">
+                                        <h2 class="section-heading">Conheça uma forma inovadora em fazer bons negócios
+                                        </h2>
+                                        <h3 class="section-heading sub-title">Conectamos marcas e empreendedores
+                                        </h3>
+                                        <a href="#group0" class="btn btn-xl btn-quote scroll">Quero saber mais</a>
+                                    </div>
+                                </div>    
                             </div>
-                        </div>    
+                        </div>
                     </div>
                 </div>
-            </div>
-        </div>
     </div>
 </div>
 </div>
 </section>
 
 <script type="text/javascript">
-    var $root = $('html, body');
+
+    var $root = $('.parallax');
 $('a').click(function() {
     $root.animate({
         scrollTop: $( $.attr(this, 'href') ).offset().top
-    }, 500);
+    }, 4500);
     return false;
 });
 </script>
