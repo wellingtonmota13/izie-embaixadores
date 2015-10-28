@@ -23,9 +23,7 @@
                            <?php echo esc_html(suevafree_setting('suevafree_copyright_text')); ?>
                         <?php else: ?>
                           <?php _e('Copyright','suevafree'); ?> <?php echo get_bloginfo("name"); ?> <?php echo date("Y"); ?> 
-                        <?php endif; ?> 
-                        | <?php _e('Theme by','suevafree'); ?> <a href="<?php echo esc_url('https://www.themeinprogress.com/'); ?>" target="_blank">Theme in Progress</a> |
-                        <a href="<?php echo esc_url( 'http://wordpress.org/'); ?>" title="<?php esc_attr_e( 'A Semantic Personal Publishing Platform', '_s' ); ?>" rel="generator"><?php printf( __( 'Proudly powered by %s', '_s' ), 'WordPress' ); ?></a>
+                        <?php endif; ?>
         
                     </p>
                     
